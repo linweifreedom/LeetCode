@@ -1,4 +1,4 @@
-package leetCode.Remove.Duplicate.Latters;
+package leetCode316.Remove.Duplicate.Letters;
 
 public class RemoveDuplicateLatters {
 	public static String removeDuplicateLetters(String s) {
@@ -20,5 +20,11 @@ public class RemoveDuplicateLatters {
 			inStack[i] = true;
 		}
 		return String.valueOf(stack, 0, top+1);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "cbacdcbc";
+		System.out.println(RemoveDuplicateLatters.removeDuplicateLetters(s));
 	}
 }

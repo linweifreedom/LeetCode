@@ -1,4 +1,4 @@
-package leetCode140.wordbreak2;
+package leetcode.dp;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class Wordbreak2 {
+public class L140_Wordbreak2 {
 	public static List<String> wordBreak(String s, List<String> wordDict) {
 		Set<String> dict = new HashSet<>(wordDict);
 		Map<String, List<String>> memo = new HashMap<>();

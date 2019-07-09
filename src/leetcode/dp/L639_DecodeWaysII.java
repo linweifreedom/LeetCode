@@ -1,4 +1,4 @@
-package dp.Q639.DecodeWaysII;
+package leetcode.dp;
 
 /*A message containing letters from A-Z is being encoded to numbers using the following mapping way:
 'A' -> 1
@@ -8,7 +8,7 @@ package dp.Q639.DecodeWaysII;
 Beyond that, now the encoded string can also contain the character '*', which can be treated as one of the numbers from 1 to 9.
 Given the encoded message containing digits and the character '*', return the total number of ways to decode it.
 Also, since the answer may be very large, you should return the output mod 10^9 + 7.*/
-public class DecodeWaysII {
+public class L639_DecodeWaysII {
 	public int numDecodings(String s) {
 		if (s == null) return 0;
 		int mod = 1000000007;

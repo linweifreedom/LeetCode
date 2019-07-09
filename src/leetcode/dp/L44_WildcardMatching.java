@@ -1,7 +1,7 @@
-package dp.Q44.WildcardMatching;
+package leetcode.dp;
 
 //Given an input string (s) and a pattern (p), implement wildcard pattern matching with support for '?' and '*'.
-public class WildcardMatching {
+public class L44_WildcardMatching {
 	public boolean isMatch(String s, String p) {
 		char[] sarray = s.toCharArray();
 		char[] parray = p.toCharArray();

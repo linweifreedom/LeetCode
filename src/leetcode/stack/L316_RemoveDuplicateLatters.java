@@ -1,6 +1,6 @@
-package leetCode316.Remove.Duplicate.Letters;
+package leetcode.stack;
 
-public class RemoveDuplicateLatters {
+public class L316_RemoveDuplicateLatters {
 	public static String removeDuplicateLetters(String s) {
 		char[] chs = s.toCharArray();
 		int[] count = new int[26];
@@ -25,6 +25,6 @@ public class RemoveDuplicateLatters {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String s = "cbacdcbc";
-		System.out.println(RemoveDuplicateLatters.removeDuplicateLetters(s));
+		System.out.println(L316_RemoveDuplicateLatters.removeDuplicateLetters(s));
 	}
 }

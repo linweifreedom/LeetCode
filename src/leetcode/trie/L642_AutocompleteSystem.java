@@ -1,4 +1,4 @@
-package leetCode642.search.autocomplete.system;
+package leetcode.trie;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
 
-public class AutocompleteSystem {
+public class L642_AutocompleteSystem {
 	class TrieNode {
         Map<Character, TrieNode> trieMap;
         Map<String, Integer> frequencyMap;  
@@ -28,7 +28,7 @@ public class AutocompleteSystem {
     TrieNode root, cur;
     String prefix;
     boolean noResult = false;
-    public AutocompleteSystem(String[] sentences, int[] times) {
+    public L642_AutocompleteSystem(String[] sentences, int[] times) {
         root = new TrieNode();
         prefix = "";
         for (int i = 0; i < sentences.length; i++) {
@@ -91,7 +91,7 @@ public class AutocompleteSystem {
 		
 		String[] s = {"i love you","island","iroman","i love leetcode"};
 		int[] times = {5,3,2,2};
-		AutocompleteSystem autosystem = new AutocompleteSystem(s, times);
+		L642_AutocompleteSystem autosystem = new L642_AutocompleteSystem(s, times);
 		System.out.println(autosystem.input('i'));
 		System.out.println(autosystem.input(' '));
 		System.out.println(autosystem.input('a'));

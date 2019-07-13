@@ -1,6 +1,6 @@
 package test.pratice;
 
-public class RegularExpressionMatching {
+public class _10_RegularExpressionMatching {
 	public boolean isMatch(String s, String p) {
 		boolean[][] dp = new boolean[s.length() + 1][p.length() + 1];
 		dp[s.length()][p.length()] = true;

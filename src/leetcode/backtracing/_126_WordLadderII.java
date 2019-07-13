@@ -19,7 +19,7 @@ All words have the same length.
 All words contain only lowercase alphabetic characters.
 You may assume no duplicates in the word list.
 You may assume beginWord and endWord are non-empty and are not the same.*/
-public class L126_WordLadderII {
+public class _126_WordLadderII {
 	public static List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
         Set<String> dict = new HashSet<>(wordList);
         if (!dict.contains(endWord)) return new ArrayList<>();

@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
 
-public class L146_LRUCache {
+public class _146_LRUCache {
 
 	private int capacity;
     private class LinkedNode {
@@ -14,7 +14,7 @@ public class L146_LRUCache {
     private int count;
     private Map<Integer, LinkedNode> map = new HashMap<>();
     private LinkedList<LinkedNode> linkedList = new LinkedList<>();
-     public L146_LRUCache(int capacity) {
+     public _146_LRUCache(int capacity) {
         this.capacity = capacity;
         this.count = 0;
          

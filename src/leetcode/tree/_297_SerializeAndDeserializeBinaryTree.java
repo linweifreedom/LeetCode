@@ -12,7 +12,7 @@ Design an algorithm to serialize and deserialize a binary tree.
 There is no restriction on how your serialization/deserialization algorithm should work. 
 You just need to ensure that a binary tree can be serialized to a string and this string can be deserialized to the original tree structure.
 */
-public class L297_SerializeAndDeserializeBinaryTree {
+public class _297_SerializeAndDeserializeBinaryTree {
 	 // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
     	if (root == null)

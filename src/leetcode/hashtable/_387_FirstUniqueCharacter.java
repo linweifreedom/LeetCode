@@ -3,7 +3,7 @@ package leetcode.hashtable;
 import java.util.HashMap;
 
 //Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
-public class L387_FirstUniqueCharacter {
+public class _387_FirstUniqueCharacter {
 	public int firstUniqChar(String s) {
         HashMap<Character, Integer> countMap = new HashMap<>();
         int n = s.length();

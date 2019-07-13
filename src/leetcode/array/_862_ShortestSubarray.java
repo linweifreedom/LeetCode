@@ -5,7 +5,7 @@ import java.util.Deque;
 
 //Return the length of the shortest, non-empty, contiguous subarray of A with sum at least K.
 //If there is no non-empty subarray with sum at least K, return -1.
-public class L862_ShortestSubarray {
+public class _862_ShortestSubarray {
 	public static int shortestSubarray(int[] A, int K) {
 		if (A == null || A.length == 0) {
             return -1;

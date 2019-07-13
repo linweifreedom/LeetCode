@@ -2,7 +2,7 @@ package leetcode.stack;
 
 import java.util.Stack;
 
-public class L682_BaseBall {
+public class _682_BaseBall {
 
 	public static void main(String[] args) {
 		String[] ops = {"5","2","C","D","+"};

@@ -4,7 +4,7 @@ package leetcode.dfs;
 count the number of islands. An island is surrounded by water 
 and is formed by connecting adjacent lands horizontally or vertically. 
 You may assume all four edges of the grid are all surrounded by water.*/
-public class L200_NubmerOfIslands {
+public class _200_NubmerOfIslands {
 	int count = 0;
     public int numIslands(char[][] grid) {
         if (grid.length == 0)

@@ -2,7 +2,7 @@ package leetcode.twopointer;
 
 /*Given n non-negative integers representing an elevation map where the width of each bar is 1, 
 compute how much water it is able to trap after raining.*/
-public class L42_TrappingRainWater {
+public class _42_TrappingRainWater {
 	public int trap(int[] height) {
 		if (height.length < 3)
 			return 0;

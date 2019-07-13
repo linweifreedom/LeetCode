@@ -3,7 +3,7 @@ package test.pratice;
 import java.util.HashSet;
 import java.util.Set;
 
-public class UniqueEmailAddress {
+public class _929_UniqueEmailAddress {
 	public int numUniqueEmails(String[] emails) {
 		Set<String> emailSet = new HashSet<>();
 		for (String email : emails) {

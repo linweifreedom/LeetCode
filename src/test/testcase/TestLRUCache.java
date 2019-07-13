@@ -1,12 +1,12 @@
 package test.testcase;
 
-import leetcode.linkedlist.L146_LRUCache;
+import leetcode.linkedlist._146_LRUCache;
 
 public class TestLRUCache {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		L146_LRUCache lrucache = new L146_LRUCache(2);
+		_146_LRUCache lrucache = new _146_LRUCache(2);
 		lrucache.put(1, 1);
 		lrucache.put(2, 2);
 		lrucache.get(1);

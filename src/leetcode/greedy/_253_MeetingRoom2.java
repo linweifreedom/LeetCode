@@ -11,7 +11,7 @@ public class _253_MeetingRoom2 {
 	      Interval() { start = 0; end = 0; }
 	      Interval(int s, int e) { start = s; end = e; }
 	 }
-
+	//Time O(nlogn)
 	public int minMeetingRooms(Interval[] intervals) {
 		int n = intervals.length;
 		int[] start = new int[n], end = new int[n];

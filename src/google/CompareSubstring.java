@@ -4,12 +4,11 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * 给一个很长的text， 要求返回所有的substring
- * 比如text='thisisstevenjobs'
- * input = ['steve', 'student','job']
- * 返回['steve','job']
+ * give a very long text, return all the matched substring
  * 
- * @author 11032026
+ * text = "thisisstevenjobs"
+ * input= {'steve', 'student', 'job'}
+ * return {'steve', 'job'}
  *
  */
 public class CompareSubstring {

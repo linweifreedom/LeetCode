@@ -19,14 +19,10 @@ public class ContniouslyDecreasing {
         return count;
     }
     
-    static int getTriangleNumber(int n) {
-        int sum = 0;
-        while (n != 0) {
-            sum += n;
-            n--;
-        }
-        return sum;
+	static int getTriangleNumber(int n) {
+        return n * (n + 1)/2;
     }
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		 System.out.println(ContniouslyDecreasing.countSequences(new int[] { 4,3,5,4,3 }));
